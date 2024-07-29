@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object Model">
+    
+      <listeners>
+     
+       <listener class-name="com.weirdo.listeners.ExtentListeners"></listener>
+      
+  </listeners> 
+    
+	<test name="Zoho App Login">
+		<classes>
+			<class name="com.weirdo.rough.TestScript2" />
+		</classes>
+	</test> 
+	
+</suite> <!-- Suite -->
